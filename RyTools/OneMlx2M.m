@@ -8,4 +8,4 @@ location = strfind(filePath, '.mlx');
 filename = filePath(1:location(end) - 1);
 matlab.internal.liveeditor.openAndConvert(filePath, [filename '.m']);
 
-disp(['OneMlx2M transfers "' filePath '" to .m successful.']);
+disp(['OneMlx2M successful transfers "' filePath '" to .m.']);

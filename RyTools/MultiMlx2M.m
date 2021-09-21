@@ -25,4 +25,4 @@ for r = 1:nrfiles
 end
 
 % show success message
-disp(['MultiMlx2M transfers "' fileDir '" to .m successful.']);
+disp(['MultiMlx2M successful transfers "' fileDir '" to .m.']);
