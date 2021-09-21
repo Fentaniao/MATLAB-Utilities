@@ -8,13 +8,12 @@
 
 ## 工具箱内容
 
-| Dir               | .m FileName | Function                           |
-| ----------------- | ----------- | ---------------------------------- |
-| MBeautifier-1.3.2 | MBeautifier | 格式化.m文件                       |
-| RyTools           | AutoCdPath  | 自动设置当前目录                   |
-| RyTools           | OneMlx2M    | 自动转换当前.mlx文件为.m文件       |
-| RyTools           | MultiMlx2M  | 自动转换目录下所有.mlx文件为.m文件 |
-|                   |             |                                    |
+| Dir               | .m FileName | Function                           | Remarks                             |
+| ----------------- | ----------- | ---------------------------------- | ----------------------------------- |
+| MBeautifier-1.3.2 | MBeautifier | 格式化.m文件                       | MBeautify.formatCurrentEditorPage() |
+| RyTools           | AutoCdPath  | 自动设置当前目录                   |                                     |
+| RyTools           | OneMlx2M    | 自动转换当前.mlx文件为.m文件       |                                     |
+| RyTools           | MultiMlx2M  | 自动转换目录下所有.mlx文件为.m文件 |                                     |
 
 ## 使用方法
 
@@ -24,24 +23,23 @@
 
 ## 配置方法
 
-### Clone代码到本地
+- Clone代码到本地
 
-### 添加到MATLAB搜索路径
+- 设置如下：
 
-<img src="README.assets/image-20210921110023063.png" alt="image-20210921110023063" style="zoom: 50%;" />
-
-### 添加收藏命令
-
-<img src="README.assets/image-20210921110048305.png" alt="image-20210921110048305" style="zoom:50%;" />
-
-### 写入代码
-
+| 添加到MATLAB搜索路径                                         |                                 添加收藏命令|
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="README.assets/image-20210921110023063.png" alt="image-20210921110023063" style="zoom: 33%;" /> | <img src="README.assets/image-20210921110048305.png" alt="image-20210921110048305" style="zoom: 50%;" /> |
+| 写入代码 | 写入代码 |
 | <img src="README.assets/image-20210921110103753.png" alt="image-20210921110103753" style="zoom:50%;" /> | <img src="README.assets/image-20210921110115227.png" alt="image-20210921110115227" style="zoom:50%;" /> |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+## 效果图
+
+| <img src="README.assets/image-20210921110140550.png" alt="image-20210921110140550"  /> |
+| ------------------------------------------------------------ |
+|   ![image-20210921144110454](README.assets/image-20210921144110454.png) |
 
 
 
-### 效果图
 
-<img src="README.assets/image-20210921110140550.png" alt="image-20210921110140550" style="zoom:50%;" />
 
