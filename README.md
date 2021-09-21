@@ -18,14 +18,17 @@
 
 ## 使用方法
 
+- 通过命令行调用
 - 设置为收藏夹命令，即点即用
-- 直接在项目中包含所需要的代码。
+- 直接在项目中包含所需要的代码
 
 ## 配置方法
 
-### 添加到MATLAB路径
+### Clone代码到本地
 
-<img src="README.assets/image-20210921110023063.png" alt="image-20210921110023063" style="zoom:50%;" />
+### 添加到MATLAB搜索路径
+
+<img src="README.assets/image-20210921110023063.png" alt="image-20210921110023063" style="zoom: 50%;" />
 
 ### 添加收藏命令
 
