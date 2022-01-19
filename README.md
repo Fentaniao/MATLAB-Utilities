@@ -2,13 +2,13 @@
 
 [English Readme](https://github.com/Fentaniao/MATLABUtilities/blob/main/README.md) • [中文文档](https://github.com/Fentaniao/MATLABUtilities/blob/main/README_zh.md)
 
-A set of utilities to power MATLAB develping progress.
+A set of utilities to power MATLAB developing progress.
 
 ## Current utilities
 
 ### AutoCdPath
 
-- FileName: AutoCdPath.m
+- Filename: AutoCdPath.m
 
 - Function: automatically set current path to the opened file's path
 
@@ -17,7 +17,7 @@ A set of utilities to power MATLAB develping progress.
 
 ### OneMlx2M
 
-- FileName: OneMlx2M.m
+- Filename: OneMlx2M.m
 
 - Function: automatically transfer current .mlx file to .m file
 
@@ -26,7 +26,7 @@ A set of utilities to power MATLAB develping progress.
 
 ### MultiMlx2M
 
-- FileName: MultiMlx2M.m
+- Filename: MultiMlx2M.m
 
 - Function: automatically transfer all .mlx file in current path to .m file
 
@@ -34,7 +34,7 @@ A set of utilities to power MATLAB develping progress.
 
 ### MBeautifier
 
-- FolderName: MBeautifier-1.3.2
+- Folder name: MBeautifier-1.3.2
 
 - Function: format .m file
 
@@ -61,9 +61,9 @@ Here provides more than one way to use these utilities.
 
 ### Via command window
 
-Enter command derictly in command window.
+Enter command directly in command window.
 
-For example, you can tranfer the dirtory to the opened file's dirtory by enter the command in command window:
+For example, you can transfer the current path to the opened file's path by enter the command in command window:
 
 ```matlab
 AutoCdPath
