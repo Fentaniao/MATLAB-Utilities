@@ -1,8 +1,8 @@
 # MATLAB Utilities
 
-[English Readme](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README.md) · [中文文档](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README_zh.md)
-
 ![logo](README.assets/logo.png)
+
+[English Readme](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README.md) · [中文文档](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README_zh.md)
 
 A set of utilities to power MATLAB developing progress.
 
