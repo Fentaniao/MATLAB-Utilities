@@ -1,45 +1,104 @@
-# mTools
+# MATLABUtilities
 
-## 关于
+[English Readme](https://github.com/Fentaniao/MATLABUtilities/blob/main/README.md) • [中文文档](https://github.com/Fentaniao/MATLABUtilities/blob/main/README_zh.md)
 
-- 这是一个集成式的matlab工具箱，旨在优化matlab开发流程。
-- mTools 项目的诞生离不开[MBeautifier](https://github.com/davidvarga/MBeautifier/tree/v1.3.2)和其他一些开源项目。
-- 本项目的GitHub位置：https://github.com/Fentaniao/mTools
+A set of utilities to power MATLAB develping progress.
 
-## 工具箱内容
+## Current utilities
 
-| Dir               | .m FileName | Function                           | Remarks                             |
-| ----------------- | ----------- | ---------------------------------- | ----------------------------------- |
-| MBeautifier-1.3.2 | MBeautifier | 格式化.m文件                       | MBeautify.formatCurrentEditorPage() |
-| RyTools           | AutoCdPath  | 自动设置当前目录                   |                                     |
-| RyTools           | OneMlx2M    | 自动转换当前.mlx文件为.m文件       |                                     |
-| RyTools           | MultiMlx2M  | 自动转换目录下所有.mlx文件为.m文件 |                                     |
+### AutoCdPath
 
-## 使用方法
+- FileName: AutoCdPath.m
 
-- 通过命令行调用
-- 设置为收藏夹命令，即点即用
-- 直接在项目中包含所需要的代码
+- Function: automatically set current path to the opened file's path
 
-## 配置方法
-
-- Clone代码到本地
-
-- 设置如下：
-
-| 添加到MATLAB搜索路径                                         |                                 添加收藏命令|
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="README.assets/image-20210921110023063.png" alt="image-20210921110023063" style="zoom: 33%;" /> | <img src="README.assets/image-20210921110048305.png" alt="image-20210921110048305" style="zoom: 50%;" /> |
-| 写入代码 | 写入代码 |
-| <img src="README.assets/image-20210921110103753.png" alt="image-20210921110103753" style="zoom:50%;" /> | <img src="README.assets/image-20210921110115227.png" alt="image-20210921110115227" style="zoom:50%;" /> |
-
-## 效果图
-
-| <img src="README.assets/image-20210921110140550.png" alt="image-20210921110140550"  /> |
-| ------------------------------------------------------------ |
-|   ![image-20210921144110454](README.assets/image-20210921144110454.png) |
+- Command: AutoCdPath
 
 
+### OneMlx2M
+
+- FileName: OneMlx2M.m
+
+- Function: automatically transfer current .mlx file to .m file
+
+- Command: OneMlx2M
 
 
+### MultiMlx2M
 
+- FileName: MultiMlx2M.m
+
+- Function: automatically transfer all .mlx file in current path to .m file
+
+- Command: MultiMlx2M
+
+### MBeautifier
+
+- FolderName: MBeautifier-1.3.2
+
+- Function: format .m file
+
+- Command: MBeautify.formatCurrentEditorPage()
+
+- Remark: base on [MBeautifier](https://github.com/davidvarga/MBeautifier)。
+
+
+## 安装
+
+### Requirement
+
+last than MATLAB R2013b.
+
+#### Download scripts via GitHub
+
+[GitHub releases page](https://github.com/Fentaniao/MATLABUtilities/releases), click on `Assets` at the bottom to show the files available in the release and then click on the .m scripts or .zip file you want to download.
+
+#### Add to MATLAB search path
+
+## 用法
+
+Here provides more than one way to use these utilities.
+
+### Via command window
+
+Enter command derictly in command window.
+
+For example, you can tranfer the dirtory to the opened file's dirtory by enter the command in command window:
+
+```matlab
+AutoCdPath
+```
+
+then you can find such the result in command window:
+
+```matlab
+AutoCdPath to "C:\Users\username\Documents\Scripts".
+```
+
+### Set to favorites command, point-and-use
+
+#### Add to favorites command
+
+<img src="README.assets/image-20210921110048305.png" alt="image-20210921110048305" style="zoom: 50%;" />
+
+#### Edit favorites command
+
+<img src="README.assets/image-20210921110103753.png" alt="image-20210921110103753" style="zoom:50%;" />
+
+<img src="README.assets/image-20210921110115227.png" alt="image-20210921110115227" style="zoom:50%;" />
+
+## Effect picture
+
+<img src="README.assets/image-20210921110140550.png" alt="image-20210921110140550"  /> 
+
+### Include the required code directly in your project
+
+## Contact
+
+Author: Fentaniao
+
+Email: [Fentaniao@gmail.com](mailto:Fentaniao@gmail.com)
+
+## License
+
+[GPL-3.0 License](https://github.com/Fentaniao/MATLABUtilities/blob/main/LICENSE) © Fentaniao
