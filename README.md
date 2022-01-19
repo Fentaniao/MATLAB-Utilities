@@ -1,6 +1,6 @@
-# MATLABUtilities
+# MATLAB Utilities
 
-[English Readme](https://github.com/Fentaniao/MATLABUtilities/blob/main/README.md) · [中文文档](https://github.com/Fentaniao/MATLABUtilities/blob/main/README_zh.md)
+[English Readme](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README.md) · [中文文档](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README_zh.md)
 
 A set of utilities to power MATLAB developing progress.
 
@@ -50,7 +50,7 @@ last than MATLAB R2013b.
 
 #### Download scripts via GitHub
 
-[GitHub releases page](https://github.com/Fentaniao/MATLABUtilities/releases), click on `Assets` at the bottom to show the files available in the release and then click on the .m scripts or .zip file you want to download.
+[GitHub releases page](https://github.com/Fentaniao/MATLAB-Utilities/releases), click on `Assets` at the bottom to show the files available in the release and then click on the .m scripts or .zip file you want to download.
 
 #### Don't forget to Add to MATLAB search path
 
@@ -100,4 +100,4 @@ Email: [Fentaniao@gmail.com](mailto:Fentaniao@gmail.com)
 
 ## License
 
-[GPL-3.0 License](https://github.com/Fentaniao/MATLABUtilities/blob/main/LICENSE) © Fentaniao
+[GPL-3.0 License](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/LICENSE) © Fentaniao
