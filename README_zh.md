@@ -2,6 +2,8 @@
 
 [English Readme](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README.md) · [中文文档](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README_zh.md)
 
+![logo](README_zh.assets/logo-16425929771251.png)
+
 这是一组MATLAB实用程序，旨在优化MATLAB开发流程。
 
 ## 工具箱内容
