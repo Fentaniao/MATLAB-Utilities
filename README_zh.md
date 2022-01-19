@@ -51,7 +51,7 @@ MATLAB 版本不低于R2013b.
 
 导航到[GitHub releases page](https://github.com/Fentaniao/MATLABUtilities/releases)，点击底部的**Assets**来显示发布版本中可用的文件，然后点击你想要下载的.m 脚本或.zip压缩包。
 
-#### 将脚本所在位置添加到MATLAB搜索路径
+#### 别忘记将脚本所在文件夹添加到MATLAB搜索路径
 
 ## 用法
 

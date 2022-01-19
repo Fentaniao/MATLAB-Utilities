@@ -52,7 +52,7 @@ last than MATLAB R2013b.
 
 [GitHub releases page](https://github.com/Fentaniao/MATLABUtilities/releases), click on `Assets` at the bottom to show the files available in the release and then click on the .m scripts or .zip file you want to download.
 
-#### Add to MATLAB search path
+#### Don't forget to Add to MATLAB search path
 
 ## Usage
 
@@ -86,7 +86,7 @@ AutoCdPath to "C:\Users\username\Documents\Scripts".
 
 <img src="README.assets/image-20210921110115227.png" alt="image-20210921110115227" style="zoom:50%;" />
 
-## Effect picture
+#### Effect picture
 
 <img src="README.assets/image-20210921110140550.png" alt="image-20210921110140550"  /> 
 
