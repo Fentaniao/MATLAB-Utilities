@@ -10,7 +10,7 @@ A set of utilities to power MATLAB developing progress.
 
 - Filename: AutoCdPath.m
 
-- Function: automatically set current path to the opened file's path
+- Function: Automatically set current path to the opened file's path
 
 - Command: AutoCdPath
 
@@ -19,7 +19,7 @@ A set of utilities to power MATLAB developing progress.
 
 - Filename: OneMlx2M.m
 
-- Function: automatically transfer current .mlx file to .m file
+- Function: Transfer current .mlx file to .m file
 
 - Command: OneMlx2M
 
@@ -28,7 +28,7 @@ A set of utilities to power MATLAB developing progress.
 
 - Filename: MultiMlx2M.m
 
-- Function: automatically transfer all .mlx file in current path to .m file
+- Function: Transfer all .mlx file in current path to .m file
 
 - Command: MultiMlx2M
 
@@ -36,7 +36,7 @@ A set of utilities to power MATLAB developing progress.
 
 - Folder name: MBeautifier-1.3.2
 
-- Function: format .m file
+- Function: A MATLAB source code formatter, beautifier. It can be used directly in the MATLAB Editor and it is configurable.
 
 - Command: MBeautify.formatCurrentEditorPage()
 
