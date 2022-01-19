@@ -1,6 +1,6 @@
 # MATLABUtilities
 
-[English Readme](https://github.com/Fentaniao/MATLABUtilities/blob/main/README.md) • [中文文档](https://github.com/Fentaniao/MATLABUtilities/blob/main/README_zh.md)
+[English Readme](https://github.com/Fentaniao/MATLABUtilities/blob/main/README.md) · [中文文档](https://github.com/Fentaniao/MATLABUtilities/blob/main/README_zh.md)
 
 A set of utilities to power MATLAB developing progress.
 
@@ -42,8 +42,7 @@ A set of utilities to power MATLAB developing progress.
 
 - Remark: base on [MBeautifier](https://github.com/davidvarga/MBeautifier)。
 
-
-## 安装
+## Install
 
 ### Requirement
 
@@ -55,7 +54,7 @@ last than MATLAB R2013b.
 
 #### Add to MATLAB search path
 
-## 用法
+## Usage
 
 Here provides more than one way to use these utilities.
 
