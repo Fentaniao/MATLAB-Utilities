@@ -58,7 +58,7 @@ last than MATLAB R2013b.
 
 Here provides more than one way to use these utilities.
 
-### Via command window
+### 1.Via command window
 
 Enter command directly in command window.
 
@@ -74,7 +74,7 @@ then you can find such the result in command window:
 AutoCdPath to "C:\Users\username\Documents\Scripts".
 ```
 
-### Set to favorites command, point-and-use
+### 2.Set to favorites command, point-and-use
 
 #### Add to favorites command
 
@@ -90,7 +90,7 @@ AutoCdPath to "C:\Users\username\Documents\Scripts".
 
 <img src="README.assets/image-20210921110140550.png" alt="image-20210921110140550"  /> 
 
-### Include the required code directly in your project
+### 3.Include the required code directly in your project
 
 ## Contact
 

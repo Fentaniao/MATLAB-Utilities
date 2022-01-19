@@ -57,7 +57,7 @@ MATLAB 版本不低于R2013b.
 
 这里提供了多种方法来使用这些实用程序。
 
-### 通过命令行调用
+### 1.通过命令行调用
 
 在命令窗口中直接输入命令。
 
@@ -73,7 +73,7 @@ AutoCdPath
 AutoCdPath to "C:\Users\username\Documents\Scripts".
 ```
 
-### 设置为收藏夹命令，即点即用
+### 2.设置为收藏夹命令，即点即用
 
 #### 添加到收藏命令
 
@@ -89,7 +89,7 @@ AutoCdPath to "C:\Users\username\Documents\Scripts".
 
 <img src="README.assets/image-20210921110140550.png" alt="image-20210921110140550"  /> 
 
-### 直接在项目中包含所需要的代码
+### 3.直接在项目中包含所需要的代码
 
 ## 联系
 
