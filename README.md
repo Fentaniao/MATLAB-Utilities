@@ -2,8 +2,10 @@
 
 # MATLAB Utilities
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/fentaniao/MATLAB-Utilities?&color=blue&logo=hack-the-box)</a>
-<img alt="MATLAB" src="https://img.shields.io/badge/-MATLAB-00ADD8?style=flat&logo=matrix&logoColor=white" />
+<p>
+	<img src="https://img.shields.io/github/v/release/fentaniao/MATLAB-Utilities?&color=blue&logo=hack-the-box"/>
+	<img alt="MATLAB" src="https://img.shields.io/badge/-MATLAB-00ADD8?style=flat&logo=matrix&logoColor=white"/>
+</p>
 
 [English Readme](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README.md) · [中文文档](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README_zh.md)
 
