@@ -2,8 +2,7 @@ name: Readme Translate
 on:
   push:
     branches:
-      - main
-      - master
+      - translate
 jobs:
   build:
     runs-on: ubuntu-latest
