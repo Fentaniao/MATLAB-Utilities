@@ -1,0 +1,31 @@
+{
+  "name": "translate-md",
+  "version": "1.0.0",
+  "description": "A Github Action to translate Readme to a different language",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build ./index.js -o dist --source-map",
+    "build:commit": "npm run build && git add . && git commit"
+  },
+  "keywords": [
+    "readme",
+    "translate",
+    "translator"
+  ],
+  "author": "Ephraim Atta-Duncan",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@k3rn31p4nic/google-translate-api": "^1.1.1",
+    "http-proxy-agent": "^4.0.1",
+    "remark-parse": "^8.0.3",
+    "remark-stringify": "^8.1.1",
+    "simple-git": "^2.19.0",
+    "tunnel": "0.0.6",
+    "unified": "^9.1.0",
+    "unist-util-visit": "^2.0.3"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.23.0"
+  }
+}
