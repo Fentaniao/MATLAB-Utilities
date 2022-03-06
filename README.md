@@ -7,7 +7,7 @@
 	<img alt="MATLAB" src="https://img.shields.io/badge/-MATLAB-00ADD8?style=flat&logo=matrix&logoColor=white"/>
 </p>
 
-[English Readme](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README.md) | [中文自述文件](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README_zh.md)
+[English Readme](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README.md) • [中文自述文件](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/README_zh.md)
 
 A set of utilities to power MATLAB developing progress.
 
@@ -103,8 +103,8 @@ AutoCdPath to "C:\Users\username\Documents\Scripts".
 
 Author: Fentaniao
 
-Email: [Fentaniao@gmail.com](mailto:Fentaniao@gmail.com)
+Email: [fentaniao@gmail.com](mailto:fentaniao@gmail.com)
 
 ## License
 
-[GPL-3.0 License](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/LICENSE) © Fentaniaov
+[GPL-3.0 License](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/LICENSE) © Fentaniao
