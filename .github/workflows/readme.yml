@@ -1,4 +1,5 @@
-name: Translate README
+- name: Readme Translate
+  uses: InProgres/translate-readme@v2.3
 
 on:
   push:
