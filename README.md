@@ -1,10 +1,3 @@
----
-- name: Translate Readme Action
-  uses: dephraiim/translate-readme@v1
----
-
-
-
 ![logo](README.assets/logo.png)
 
 # MATLAB Utilities
