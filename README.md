@@ -103,8 +103,8 @@ AutoCdPath to "C:\Users\username\Documents\Scripts".
 
 Author: Fentaniao
 
-Email: [Fentaniao@gmail.com](mailto:Fentaniao@gmail.com)
+Email: [fentaniao@gmail.com](mailto:fentaniao@gmail.com)
 
 ## License
 
-[GPL-3.0 License](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/LICENSE) © Fentaniaov
+[GPL-3.0 License](https://github.com/Fentaniao/MATLAB-Utilities/blob/main/LICENSE) © Fentaniao
