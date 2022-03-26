@@ -13,6 +13,7 @@ catch ME
     ME = addCause(ME, causeException);
     rethrow(ME)
 end
+
 matlab.internal.liveeditor.openAndConvert(filePath, [filename '.m']);
 
 disp(['OneMlx2M successful transfers "' filePath '" to .m.']);

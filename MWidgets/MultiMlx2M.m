@@ -3,13 +3,14 @@
 % MULTI-files edition
 
 % show start message
-disp(['MultiMlx2M start to transfer "' fileDir '" to .m.']);
+disp(['MultiMlx2M start.']);
 
 % cd to this file's path
 filePath = matlab.desktop.editor.getActiveFilename;
 location = strfind(filePath, '\');
 try
     fileDir = filePath(1:location(end)-1);
+    disp(['Dir: ' fileDir]);
 catch ME
     msg = ['Please open an existing file.'];
     causeException = MException('MATLAB:myCode:dimensions', msg);
