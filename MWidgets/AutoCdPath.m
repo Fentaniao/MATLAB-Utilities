@@ -1,18 +1,17 @@
 % AutoCdPath
 % cd to this file's path
 
-filePath = matlab.desktop.editor.getActiveFilename;
-location = strfind(filePath, '\');
-try
-    fileDir = filePath(1:location(end)-1);
-catch ME
-    msg = ['Please open an existing file.'];
-    causeException = MException('MATLAB:myCode:dimensions', msg);
-    ME = addCause(ME, causeException);
-    rethrow(ME)
+file = matlab.desktop.editor.getActiveFilename;
+location = strfind(file, '\');
+if isempty(matlab.desktop.editor.getActiveFilename)
+    % Print error message
+    msg = "Please open an existing file first.";
+    error(msg);
+else
+    [filepath, filename, ext] = fileparts(file);
+
+    cd(filepath);
+    
+    % Print success message
+    fprintf("Success. \nCurrent folder is ""%s"".\n", filepath);
 end
-
-cd(fileDir);
-
-% show success message
-disp(['AutoCdPath to "', fileDir, '".']);

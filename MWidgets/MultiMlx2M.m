@@ -1,42 +1,31 @@
 % MultiMlx2M
-% Autotransfer '.mlx' to '.m'
-% MULTI-files edition
+% Autotmatically backup '.mlx' to '.m'
+% Multi files edition
 
-% show start message
-disp(['MultiMlx2M starts.']);
+% Print start message
+fprintf("MultiMlx2M processing... \n");
 
 % cd to this file's path
-filePath = matlab.desktop.editor.getActiveFilename;
-location = strfind(filePath, '\');
-try
-    fileDir = filePath(1:location(end)-1);
-    disp(['Dir: ' fileDir]);
-catch ME
-    msg = ['Please open an existing file.'];
-    causeException = MException('MATLAB:myCode:dimensions', msg);
-    ME = addCause(ME, causeException);
-    rethrow(ME)
-end
+AutoCdPath;
 
-cd(fileDir);
-
-% read the all files in this dir
+% Read the all live scripts in this dir
 files = dir('*.mlx');
 nrfiles = numel(files);
 
 if nrfiles > 0
-    % transfer '.m' to '.mlx'
+    % Transfer '.m' script to '.mlx' live script
     for r = 1:nrfiles
-        str = files(r).name;
-        location = strfind(str, '.mlx');
-        filename = str(1:location(end)-1);
-        matlab.internal.liveeditor.openAndConvert(str, [filename, '.m']);
-        disp(['[Process: ', num2str(r), '/', num2str(nrfiles), '] Successful transfers "', filename, '" to .m.']);
+        [filepath, filename, ext] = fileparts([files(r).folder, '/', files(r).name]);
+
+        matlab.internal.liveeditor.openAndConvert([filename, '.mlx'], [filename, '.m']);
+        % Print process message
+        fprintf("[Process: %d / %d] Successfully transfer ""%s"" to .m script.\n", ...
+            r, nrfiles, filename);
     end
-    
-    % show success message
-    disp(['MultiMlx2M successful transfers "', fileDir, '" to .m.']);
+    % Print success message
+    fprintf("Success. \nMultiMlx2M successful backups ""%s"" to .m.\n", filepath);
 else
-    % show no exit message
-    disp(['No .m file exits.']);
+    % Print no exit message
+    msg = "No .mlx script exits in this directory.";
+    error(msg);
 end

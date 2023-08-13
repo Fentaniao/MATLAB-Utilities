@@ -1,19 +1,26 @@
 % OneMlx2M
-% Autotransfer '.mlx' to '.m'
-% ONE file edition
+% Autotmatically backup '.mlx' to '.m'
+% Single file edition
 
-filePath = matlab.desktop.editor.getActiveFilename;
+% Print start message
+fprintf("OneMlx2M processing... \n");
 
-location = strfind(filePath, '.mlx');
-try
-    fileDir = filePath(1:location(end)-1);
-catch ME
-    msg = ['Please open an existing file.'];
-    causeException = MException('MATLAB:myCode:dimensions', msg);
-    ME = addCause(ME, causeException);
-    rethrow(ME)
+file = matlab.desktop.editor.getActiveFilename;
+if isempty(matlab.desktop.editor.getActiveFilename)
+    % Print error message
+    msg = "Please open an existing .m script first.";
+    error(msg);
+else
+    [filepath, filename, ext] = fileparts(file);
+
+    if ext == ".mlx"
+        matlab.internal.liveeditor.openAndConvert(file, [filepath, '/', filename, '.m']);
+
+        % Print success message
+        fprintf("Success. \nOneMlx2M successful backups ""%s"" to .m.\n", file);
+    else
+        % Print error message
+        msg = "Opened file must be a .mlx live script.";
+        error(msg);
+    end
 end
-
-matlab.internal.liveeditor.openAndConvert(filePath, [filename '.m']);
-
-disp(['OneMlx2M successful transfers "' filePath '" to .m.']);

@@ -2,7 +2,7 @@
 % Format the .m script
 
 % Print start message
-fprintf("Beatuifier processing ... \n");
+fprintf("Beatuifier processing... \n");
 file = matlab.desktop.editor.getActiveFilename;
 if isempty(matlab.desktop.editor.getActiveFilename)
     % Print error message
@@ -16,7 +16,7 @@ else
         MBeautify.formatCurrentEditorPage();
 
         % Print success message
-        fprintf("Success. \nBeatuify successful format "" %s"".\n", file);
+        fprintf("Success. \nBeatuify successful format ""%s"".\n", file);
     else
         % Print error message
         msg = "Opened file must be a .m script.";
