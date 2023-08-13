@@ -2,7 +2,7 @@
 % cd to this file's path
 
 file = matlab.desktop.editor.getActiveFilename;
-location = strfind(file, '\');
+
 if isempty(matlab.desktop.editor.getActiveFilename)
     % Print error message
     msg = "Please open an existing file first.";
